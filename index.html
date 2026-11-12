@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cauã Abreu | Desenvolvedor de Software Full Stack</title>
+  <meta name="description" content="Portfólio de Cauã Abreu, desenvolvedor de software full stack: projetos, certificações, tecnologias e contato.">
+  <meta name="theme-color" content="#0a0f1c">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Cauã Abreu | Desenvolvedor de Software Full Stack">
+  <meta property="og:description" content="Conheça meus projetos, certificações e formas de contato.">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Indica ao CSS que o JavaScript esta ativo (usado nas animaçoes de entrada). -->
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="js/data.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Ícones SVG reutilizáveis: use <svg class="icon"><use href="#icon-nome"></use></svg> -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <symbol id="icon-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="icon-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="icon-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="icon-external" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></symbol>
+    <symbol id="icon-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="icon-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+    <symbol id="icon-terminal" viewBox="0 0 24 24"><path d="m4 17 6-6-6-6M12 19h8"/></symbol>
+    <symbol id="icon-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></symbol>
+    <symbol id="icon-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"/></symbol>
+    <symbol id="icon-git-branch" viewBox="0 0 24 24"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></symbol>
+    <symbol id="icon-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="icon-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></symbol>
+    <symbol id="icon-lightbulb" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.74V16h8v-1.26A7 7 0 0 0 12 2Z"/></symbol>
+    <symbol id="icon-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="icon-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7l10-5Z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></symbol>
+    <symbol id="icon-video" viewBox="0 0 24 24"><rect x="2" y="5" width="15" height="14" rx="2"/><path d="m17 10 5-3v10l-5-3"/></symbol>
+    <symbol id="icon-language" viewBox="0 0 24 24"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></symbol>
+    <symbol id="icon-server" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></symbol>
+    <symbol id="icon-flask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"/><path d="M6.453 15h11.094"/><path d="M8.5 2h7"/></symbol>
+    <symbol id="icon-database" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></symbol>
+  </svg>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="nav__brand" href="#inicio">
+        <span class="nav__brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="nav__brand-name" data-profile="name">Cauã Abreu</span>
+      </a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu" data-menu-toggle>
+        <svg class="icon icon--menu" aria-hidden="true"><use href="#icon-menu"></use></svg>
+        <svg class="icon icon--close" aria-hidden="true"><use href="#icon-close"></use></svg>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="#inicio" data-section="inicio">Início</a></li>
+        <li><a class="nav__link" href="#sobre" data-section="sobre">Sobre mim</a></li>
+        <li><a class="nav__link" href="#certificacoes" data-section="certificacoes">Certificações</a></li>
+        <li><a class="nav__link" href="#projetos" data-section="projetos">Projetos</a></li>
+        <li class="dropdown" data-dropdown>
+          <button class="nav__link dropdown__toggle" type="button" aria-expanded="false" aria-controls="contact-menu" data-dropdown-toggle data-section="contato">
+            Contato
+            <svg class="icon dropdown__chevron" aria-hidden="true"><use href="#icon-chevron-down"></use></svg>
+          </button>
+          <ul class="dropdown__menu" id="contact-menu">
+            <li>
+              <a class="dropdown__item" data-profile-link="email">
+                <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg></span>
+                <span class="dropdown__item-text">
+                  <span class="dropdown__item-title">E-mail</span>
+                  <span class="dropdown__item-detail" data-profile="email">cauasilvaprof@gmail.com</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown__item" data-profile-link="linkedin" target="_blank" rel="noopener noreferrer">
+                <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg></span>
+                <span class="dropdown__item-text">
+                  <span class="dropdown__item-title">LinkedIn</span>
+                  <span class="dropdown__item-detail">Abre em uma nova aba</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== INÍCIO (HERO) ===================== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__backdrop" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__status" data-open-to-work>
+            <span class="status-dot" aria-hidden="true"></span>
+            Disponível para oportunidades
+          </p>
+          <p class="hero__greeting"><span aria-hidden="true">// </span>Olá, mundo! Eu sou</p>
+          <h1 class="hero__title" id="hero-title" data-profile="name">Cauã Abreu</h1>
+          <p class="hero__role" data-profile="role">Desenvolvedor de Software Full Stack</p>
+          <p class="hero__intro" data-profile="intro"></p>
+          <p class="hero__highlight" data-profile="highlight"></p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projetos">
+              Ver meus projetos
+              <svg class="icon btn__arrow" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+            </a>
+            <a class="btn btn--ghost" href="#sobre">Sobre mim</a>
+          </div>
+
+          <ul class="social-links" aria-label="Perfis profissionais">
+            <li>
+              <a class="icon-link" data-profile-link="github" target="_blank" rel="noopener noreferrer" aria-label="GitHub (abre em nova aba)">
+                <svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" data-profile-link="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (abre em nova aba)">
+                <svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon-link" data-profile-link="email" aria-label="Enviar e-mail">
+                <svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <!-- A foto é definida em js/data.js (profile.avatar). Sem foto, aparece o símbolo abaixo. -->
+          <div class="avatar" data-avatar>
+            <span class="avatar__fallback" aria-hidden="true">{ }</span>
+          </div>
+
+          <div class="code-window" aria-hidden="true">
+            <div class="code-window__bar">
+              <span class="code-window__dot"></span>
+              <span class="code-window__dot"></span>
+              <span class="code-window__dot"></span>
+              <span class="code-window__file">dev.js</span>
+            </div>
+            <div class="code-window__body">
+              <span class="code-line"><span class="tok-keyword">const</span> <span class="tok-name">dev</span> = {</span>
+              <span class="code-line">  <span class="tok-property">nome</span>: <span class="tok-string">"<span data-profile="name">Cauã Abreu</span>"</span>,</span>
+              <span class="code-line">  <span class="tok-property">cargo</span>: <span class="tok-string">"<span data-profile="role">Desenvolvedor de Software Full Stack</span>"</span>,</span>
+              <span class="code-line">  <span class="tok-property">aprendendo</span>: <span class="tok-keyword">true</span>,</span>
+              <span class="code-line">  <span class="tok-property">foco</span>: <span class="tok-string">"resolver problemas"</span>,</span>
+              <span class="code-line">};</span>
+              <span class="code-line"> </span>
+              <span class="code-line"><span class="tok-name">dev</span>.<span class="tok-function">construirSolucoes</span>();<span class="code-cursor"></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MIM ===================== -->
+    <section class="section section--alt" id="sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-header__eyebrow">01 · sobre mim</p>
+          <h2 class="section-header__title" id="sobre-title">Sobre mim</h2>
+          <p class="section-header__lead">Um pouco sobre quem sou, como cheguei até aqui e para onde quero ir.</p>
+        </header>
+
+        <div class="about-grid reveal" data-about-list></div>
+
+        <div class="skills reveal" data-skills>
+          <h3 class="subsection-title"><span class="accent" aria-hidden="true">//</span> Tecnologias e habilidades</h3>
+          <div class="skills-grid" data-skills-list></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CERTIFICAÇÕES ===================== -->
+    <section class="section" id="certificacoes" aria-labelledby="certificacoes-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-header__eyebrow">02 · certificações</p>
+          <h2 class="section-header__title" id="certificacoes-title">Certificações e cursos</h2>
+          <p class="section-header__lead">Formações que fazem parte da minha jornada de aprendizado em tecnologia.</p>
+        </header>
+
+        <div class="cert-grid reveal" id="cert-list" data-cert-list></div>
+
+        <p class="empty-state" data-cert-empty hidden>
+          Nenhuma certificação cadastrada ainda. Adicione as suas em <code>js/data.js</code>.
+        </p>
+
+        <div class="section-actions">
+          <button class="btn btn--ghost" type="button" aria-expanded="false" aria-controls="cert-list" data-cert-toggle hidden>
+            <span data-cert-toggle-label>Ver todas as certificações</span>
+            <svg class="icon toggle-chevron" aria-hidden="true"><use href="#icon-chevron-down"></use></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJETOS ===================== -->
+    <section class="section section--alt" id="projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-header__eyebrow">03 · projetos</p>
+          <h2 class="section-header__title" id="projetos-title">Projetos</h2>
+          <p class="section-header__lead">Demonstrações do que venho construindo. Assista aos vídeos e confira o código no GitHub.</p>
+        </header>
+
+        <div class="carousel reveal" role="region" aria-roledescription="carrossel" aria-label="Projetos" data-carousel>
+          <ul class="carousel__track" tabindex="0" aria-label="Lista de projetos (use as setas do teclado para navegar)" data-carousel-track></ul>
+
+          <div class="carousel__controls">
+            <button class="carousel__button" type="button" aria-label="Projeto anterior" data-carousel-prev>
+              <svg class="icon" aria-hidden="true"><use href="#icon-chevron-left"></use></svg>
+            </button>
+            <div class="carousel__dots" data-carousel-dots></div>
+            <button class="carousel__button" type="button" aria-label="Próximo projeto" data-carousel-next>
+              <svg class="icon" aria-hidden="true"><use href="#icon-chevron-right"></use></svg>
+            </button>
+          </div>
+        </div>
+
+        <p class="empty-state" data-projects-empty hidden>
+          Nenhum projeto cadastrado ainda. Adicione os seus em <code>js/data.js</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="section contact" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-card__text">
+            <p class="section-header__eyebrow">04 · contato</p>
+            <h2 class="section-header__title" id="contato-title">Vamos conversar?</h2>
+            <p class="contact-card__lead">
+              Estou em busca de oportunidades para contribuir com uma equipe, aprender com pessoas experientes e evoluir como desenvolvedor.
+              Se você é recrutador, representa uma empresa ou é dev e quer trocar uma ideia, fique à vontade para me chamar.
+            </p>
+          </div>
+
+          <div class="contact-card__actions">
+            <div class="email-box">
+              <svg class="icon email-box__icon" aria-hidden="true"><use href="#icon-mail"></use></svg>
+              <span class="email-box__address" data-profile="email" data-copy-target>cauasilvaprof@gmail.com</span>
+              <button class="btn btn--small btn--ghost copy-button" type="button" data-copy-email>
+                <svg class="icon copy-button__icon" aria-hidden="true"><use href="#icon-copy"></use></svg>
+                <svg class="icon copy-button__icon-done" aria-hidden="true"><use href="#icon-check"></use></svg>
+                <span data-copy-label>Copiar</span>
+              </button>
+            </div>
+            <p class="copy-feedback" role="status" aria-live="polite" data-copy-feedback></p>
+
+            <div class="contact-links">
+              <a class="btn btn--primary" data-profile-link="email">
+                <svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg>
+                Enviar e-mail
+              </a>
+              <a class="btn btn--ghost" data-profile-link="linkedin" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+                LinkedIn<span class="visually-hidden"> (abre em nova aba)</span>
+              </a>
+              <a class="btn btn--ghost" data-profile-link="github" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg>
+                GitHub<span class="visually-hidden"> (abre em nova aba)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <p class="site-footer__copy">© <span data-current-year>2026</span> <span data-profile="name">Cauã Abreu</span></p>
+        <p class="site-footer__phrase"><span class="accent" aria-hidden="true">&gt;_</span> Aprendendo um commit de cada vez.</p>
+      </div>
+      <ul class="social-links" aria-label="Perfis profissionais">
+        <li>
+          <a class="icon-link" data-profile-link="github" target="_blank" rel="noopener noreferrer" aria-label="GitHub (abre em nova aba)">
+            <svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg>
+          </a>
+        </li>
+        <li>
+          <a class="icon-link" data-profile-link="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (abre em nova aba)">
+            <svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript-warning">Ative o JavaScript para ver os projetos, as certificações e as tecnologias deste portfólio.</p>
+  </noscript>
+
+  <!-- ===================== TEMPLATES =====================
+       Modelos de HTML que o JavaScript copia e preenche com os dados de js/data.js. -->
+  <template id="about-card-template">
+    <article class="card about-card">
+      <span class="icon-badge" data-field="icon"></span>
+      <h3 class="about-card__title" data-field="title"></h3>
+      <p class="about-card__text" data-field="text"></p>
+    </article>
+  </template>
+
+  <template id="skill-card-template">
+    <article class="card skill-card">
+      <div class="skill-card__header">
+        <span class="icon-badge icon-badge--small" data-field="icon"></span>
+        <h4 class="skill-card__title" data-field="category"></h4>
+      </div>
+      <ul class="tag-list" data-field="items"></ul>
+    </article>
+  </template>
+
+  <template id="cert-card-template">
+    <article class="card cert-card">
+      <div class="cert-card__header">
+        <div class="cert-card__logo" data-field="logo"></div>
+        <div class="cert-card__heading">
+          <h3 class="cert-card__title" data-field="name"></h3>
+          <p class="cert-card__institution" data-field="institution"></p>
+        </div>
+      </div>
+      <p class="cert-card__description" data-field="description"></p>
+      <div class="cert-card__footer" data-field="footer">
+        <p class="cert-card__date" data-field="date">
+          <svg class="icon" aria-hidden="true"><use href="#icon-calendar"></use></svg>
+          <span></span>
+        </p>
+        <a class="text-link" data-field="url" target="_blank" rel="noopener noreferrer">
+          Ver certificado<span class="visually-hidden"> (abre em nova aba)</span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-external"></use></svg>
+        </a>
+      </div>
+    </article>
+  </template>
+
+  <template id="project-card-template">
+    <li class="card project-card">
+      <div class="project-card__media" data-field="media"></div>
+      <div class="project-card__body">
+        <div class="project-card__heading">
+          <h3 class="project-card__title" data-field="name"></h3>
+        </div>
+        <p class="project-card__description" data-field="description"></p>
+        <ul class="tag-list" aria-label="Tecnologias utilizadas" data-field="technologies"></ul>
+        <div class="project-card__actions">
+          <a class="btn btn--small btn--ghost" data-field="github" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg>
+            Ver no GitHub<span class="visually-hidden"> (abre em nova aba)</span>
+          </a>
+          <a class="btn btn--small btn--primary" data-field="demo" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#icon-external"></use></svg>
+            Ver projeto online<span class="visually-hidden"> (abre em nova aba)</span>
+          </a>
+        </div>
+      </div>
+    </li>
+  </template>
+</body>
+</html>
