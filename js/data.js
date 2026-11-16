@@ -203,12 +203,12 @@ const PORTFOLIO_DATA = {
       demo: "", // opcional, link do projeto publicado (https://...)
     },
     {
-      name: "NOME_DO_PROJETO_2 (Em breve)",
-      description: "Descrição do projeto irá aqui.",
-      video: "",
+      name: "Varanda",
+      description: "O Varanda é uma rede social full stack. A pessoa cria conta, edita o perfil, segue outros usuários, publica textos e imagens, curte e comenta.",
+      video: "assets/videos/gravacaoVaranda.mp4",
       cover: "",
-      technologies: ["TECNOLOGIA_1", "TECNOLOGIA_2", "TECNOLOGIA_3"],
-      github: "URL_DO_REPOSITORIO",
+      technologies: ["Laravel 13", "Laravel Sanctum", "PHPUnit", "Next.js", "React.js", "JavaScript"],
+      github: "https://github.com/CauaSilvaChz/varanda",
       demo: "",
     },
     {
